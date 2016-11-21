@@ -15,7 +15,7 @@ public class RestWS {
 	@Produces(MediaType.TEXT_PLAIN)
 	@Consumes(MediaType.TEXT_PLAIN)
 	public String hello(@PathParam("name") String name) {
-		return "Hello " + name;
+		return "Hello " + name +"!!!";
 	}
 
 }
